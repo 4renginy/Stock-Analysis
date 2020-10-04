@@ -13,7 +13,8 @@ We want to create Excell sheet showing total daily volume and yearly return for 
 For this kind of data analysis Excell is the best way to go, this will give us a chance to use VBA code to automate the calculations. VBA helps us reduce the chance of errors and time to run the anaylsis, especially if we needed to run it repeatedly.<br>
 <br>
 First We prepared 2 excell work sheets with 12 stock tickers with their daily starting and ending prices, daily trading volumes and daily low and high prices for years 2017 and 2018.<br>
-Then, we initialized an array for all tickers then initialized variables for the starting and ending prices for each ticker and total volumes. Looping through tickers and rows we found Total Valume and total return for year 2017 and 2018. To make the process faster , Instead of using ticker variable for each stock we created a tickerindex variable and it helped us to access the correct index for four different arrays. This refactoring helped the process to run 10 times faster.<br>   
+Then, we initialized an array for all tickers then initialized variables for the starting and ending prices for each ticker and total volumes. Looping through tickers and rows we found Total Valume and total return for year 2017 and 2018. To make the process faster , Instead of using ticker variable for each stock we created a tickerindex variable and it helped us to access the correct index for four different arrays. This refactoring helped the process to run 10 times faster.<br>
+
 Whatever the method is used the result are as follow;<br> 
 <br>
 **Year 2017**<br>
