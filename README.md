@@ -8,7 +8,8 @@ We want to create Excell sheet showing total daily volume and yearly return for 
 
 **Method and Results**<br>
 For this kind of data analysis Excell is the best way to go, this will give us a chance to use VBA code to automate the calculations. VBA helps us reduce the chance of errors and time to run the anaylsis, especially if we needed to run it repeatedly.<br>
-First We prepared 2 excell work sheets with 12 stock tickers with their daily starting and ending prices, daily trading volumes and daily low and high prices for years 2017 and 2018.
+<br>
+First We prepared 2 excell work sheets with 12 stock tickers with their daily starting and ending prices, daily trading volumes and daily low and high prices for years 2017 and 2018.<br>
 Then, we initialized an array for all tickers then initialized variables for the starting and ending prices for each ticker and total volumes. Looping through tickers and rows we found Total Valume and total return for year 2017 and 2018. To make the process faster , Instead of using ticker variable for each stock we created a tickerindex variable and it helped us to access the correct index for four different arrays. This refactoring helped the process to run 10 times faster.<br>   
 Whatever the method is used the result are as follow;<br> 
 **Year 2017**<br>
@@ -21,6 +22,7 @@ Last years winner DQ has lost 62.6 % of its value in 2018. RUN has the most retu
 
 **Summary** <br>
 
-  Refactoring is intended to imporve the design and structure of the code without loosing functinlality. So it helps to make the design cleaner, easy to understand, easy to implement, and easy to maintain. Also it helps to perform faster with less memory usage.<br> 
-  Although Refactoring has number of benefits, it is not a good idea to do it if the delivery deadline is near. The process could introduce bugs. Some cases cost of refactoring could be higher then rewriting the code from the scratch. Refactoring time consuming so tight scheduled projects should not be refactored.
+Refactoring is intended to imporve the design and structure of the code without loosing functinlality. So it helps to make the design cleaner, easy to understand, easy to implement, and easy to maintain. Also it helps to perform faster with less memory usage.<br> 
+<br>
+Although Refactoring has number of benefits, it is not a good idea to do it if the delivery deadline is near. The process could introduce bugs. Some cases cost of refactoring could be higher then rewriting the code from the scratch. Refactoring time consuming so tight scheduled projects should not be refactored.
 If the original code is working without any issues and satisfies all the necessities there is no need to refacture. 
