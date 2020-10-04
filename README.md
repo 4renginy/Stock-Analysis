@@ -19,7 +19,7 @@ Last years winner DQ has lost 62.6 % of its value in 2018. RUN has the most retu
 
 >Looking at those 2 years results; we can recommend to purchase ENPH, SEDG and RUN.
 
-##**Summary**## <br>
+**Summary** <br>
 
 Refactoring is intended to imporve the design and structure of the code without loosing functinlality. So it helps to make the design cleaner, easy to understand, easy to implement, and easy to maintain. Also it helps to perform faster with less memory usage. Although Refactoring has number of benefits, it is not a good idea to do it if the delivery deadline is near. The process could introduce bugs. Some cases cost of refactoring could be higher then rewriting the code from the scratch. Refactoring time consuming so tight scheduled projects should not be refactored.
 If the original code is working without any issues and satisfies all the necessities there is no need to refacture. 
