@@ -19,7 +19,8 @@ Despite DQ had the lowest Total Daily Volume it had  highest return of 199.4 %.O
 ![](https://github.com/4renginy/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.png)  
 **Year 2018**<br> 
 Last years winner DQ has lost 62.6 % of its value in 2018. RUN has the most return and ENPH has the highest daily volume for year 2018.  Year 2018 was not a good year for green energy stocks.<br>
-
+![](https://github.com/4renginy/Stock-Analysis/blob/master/Resources/AllStocks2018.PNG)  
+![](https://github.com/4renginy/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png)  
 >Looking at those 2 years results; we can recommend to purchase ENPH, SEDG and RUN.
 
 ##**Summary** <br>
