@@ -1,15 +1,15 @@
 #**Stock-Analysis**<br>
-##**Overview of Project**<br>
+**Overview of Project**<br>
 
 
-Our new  clients wants to invest in the stock market. Since they are passionate about green energy particularly (DQ) we decided to create a diverced portfolio of green energy stocks to increase their chance to gain more return for their investment.  
+Our new  clients wants to invest in the stock market. Since they are passionate about green energy particularly (DQ) we decided to create a diverced portfolio of green energy stocks to increase their chance to gain more return for their investment.<br>
 
-We want to create Excell sheet showing total daily volume and yearly return for twelwe stocks for years 2017 and 2018. Daily volume will show how actively a stock is traded and the yearly return will show the % differance in the price from the beginning of the year to the end of the year. Based on the calculations we want help your clients to make best decition on their investments.
+We want to create Excell sheet showing total daily volume and yearly return for twelwe stocks for years 2017 and 2018. Daily volume will show how actively a stock is traded and the yearly return will show the % differance in the price from the beginning of the year to the end of the year. Based on the calculations we want help your clients to make best decition on their investments.<br>
 
-##**Method and Results**
-Since we have an excell spreadsheet we used VBA code to automate the calculations. This helped us reduce the chance of errors and time to run the anaylsis especially if we needed to run it repeatedly.  
-First we initialized an array for all tickers then initialized variables for the starting and ending prices for each ticker and total volumes. Looping through tickers and rows we found Total Valume , beginning and ending price for each ticker for year 2017 and 2018. To make the process faster , Instead of using ticker variable for each stock we created a tickerindex variable and it helped us to access the correct index for four different arrays. This refactoring helped the process to run 10 times faster.   
-Whatever the method is used the result are as follow;  
+**Method and Results**<br>
+Since we have an excell spreadsheet we used VBA code to automate the calculations. This helped us reduce the chance of errors and time to run the anaylsis especially if we needed to run it repeatedly.<br>
+First we initialized an array for all tickers then initialized variables for the starting and ending prices for each ticker and total volumes. Looping through tickers and rows we found Total Valume , beginning and ending price for each ticker for year 2017 and 2018. To make the process faster , Instead of using ticker variable for each stock we created a tickerindex variable and it helped us to access the correct index for four different arrays. This refactoring helped the process to run 10 times faster.<br>   
+Whatever the method is used the result are as follow;<br> 
 **Year 2017**
 Despite DQ had the lowest Total Daily Volume it had  highest return of 199.4 %.On the other hand SPWR had highest daily volume yet the return was only 23.1 %. Most successful stoks are DQ, SEDG, ENPH.
 ** Year 2018**
