@@ -15,7 +15,7 @@ Then, we initialized an array for all tickers then initialized variables for the
 Whatever the method is used the result are as follow;<br> 
 **Year 2017**<br>
 Despite DQ had the lowest Total Daily Volume it had  highest return of 199.4 %.On the other hand SPWR had highest daily volume yet the return was only 23.1 %. Most successful stoks are DQ, SEDG, ENPH for the year.<br>
-![]https://github.com/4renginy/Stock-Analysis/blob/master/Resources/AllStocks2017.PNG
+!.[]https://github.com/4renginy/Stock-Analysis/blob/master/Resources/AllStocks2017.PNG
 ![]https://github.com/4renginy/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.png
 **Year 2018**<br>
 Last years winner DQ has lost 62.6 % of its value in 2018. RUN has the most return and ENPH has the highest daily volume for year 2018.  Year 2018 was not a good year for green energy stocks.<br>
