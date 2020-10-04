@@ -12,7 +12,8 @@ First We prepared 2 excell work sheets with 12 stock tickers with their daily st
 Then, we initialized an array for all tickers then initialized variables for the starting and ending prices for each ticker and total volumes. Looping through tickers and rows we found Total Valume and total return for year 2017 and 2018. To make the process faster , Instead of using ticker variable for each stock we created a tickerindex variable and it helped us to access the correct index for four different arrays. This refactoring helped the process to run 10 times faster.<br>   
 Whatever the method is used the result are as follow;<br> 
 **Year 2017**<br>
-Despite DQ had the lowest Total Daily Volume it had  highest return of 199.4 %.On the other hand SPWR had highest daily volume yet the return was only 23.1 %. Most successful stoks are DQ, SEDG, ENPH for the year.
+Despite DQ had the lowest Total Daily Volume it had  highest return of 199.4 %.On the other hand SPWR had highest daily volume yet the return was only 23.1 %. Most successful stoks are DQ, SEDG, ENPH for the year.<br>
+
 **Year 2018**<br>
 Last years winner DQ has lost 62.6 % of its value in 2018. RUN has the most return and ENPH has the highest daily volume for year 2018.  Year 2018 was not a good year for green energy stocks.<br>
 
